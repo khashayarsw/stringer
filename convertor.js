@@ -1,13 +1,13 @@
 function toUpperCase(str) {
   if (typeof str !== "string") {
-    throw new TypeError("Your input should be string!");
+    throw new TypeError("stringer wants a string!");
   }
   return str.toUpperCase();
 }
 
 function toLowerCase(str) {
   if (typeof str !== "string") {
-    throw new TypeError("Your input should be string!");
+    throw new TypeError("stringer wants a string!");
   }
   return str.toLowerCase();
 }
