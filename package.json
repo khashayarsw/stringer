@@ -1,0 +1,15 @@
+{
+    "name": "@khashi/stringer",
+    "version": "1.0.0",
+    "description": "Convert your string",
+    "license": "MIT",
+    "repository": "khashayarsw/stringer",
+    "main": "index.js",
+    "keywords": [
+      "stringer",
+      "npm",
+      "package",
+      "khashayarsw"
+    ]
+  }
+  
