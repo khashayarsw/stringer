@@ -1,4 +1,4 @@
- function isUpperCase(arg) {
+function isUpperCase(arg) {
   if (typeof arg !== "string") {
     throw new TypeError("stringer wants a string!");
   } else {
@@ -6,15 +6,15 @@
   }
 }
 
- function isLowerCase(arg) {
+function isLowerCase(arg) {
   if (typeof arg !== "string") {
     throw new TypeError("stringer wants a string!");
   } else {
-    return arg === arg.toLowerCase()();
+    return arg === arg.toLowerCase();
   }
 }
 
 module.exports = {
-    isUpperCase : isUpperCase,
-    isLowerCase : isLowerCase
-}
+  isUpperCase: isUpperCase,
+  isLowerCase: isLowerCase
+};
