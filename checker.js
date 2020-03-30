@@ -1,16 +1,16 @@
-function isUpperCase(arg) {
-  if (typeof arg !== "string") {
+function isUpperCase(str) {
+  if (typeof str !== "string") {
     throw new TypeError("stringer wants a string!");
   } else {
-    return arg === arg.toUpperCase();
+    return str === str.toUpperCase();
   }
 }
 
-function isLowerCase(arg) {
-  if (typeof arg !== "string") {
+function isLowerCase(str) {
+  if (typeof str !== "string") {
     throw new TypeError("stringer wants a string!");
   } else {
-    return arg === arg.toLowerCase();
+    return str === str.toLowerCase();
   }
 }
 
