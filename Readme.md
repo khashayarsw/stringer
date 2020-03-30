@@ -22,18 +22,16 @@ stringer.isUpperCase("DEVELOPER");
 
 stringer.toLowerCase(123);
 //=> Uncaught TypeError: stringer wants a string!
-//    at tiny (<anonymous>:2:41)
-//    at <anonymous>:1:1
 ```
 ## API
-Here is a list of the stringers currently available.
+Here is a list of currently available stringers.
 
 Stringer | Description
 ------------ | -------------
 toUpperCase(str) | convert string to uppercase letters
 toLowerCase(str) | convert string to lowercase letters
-isUpperCase(str) | checks whether all letters are uppercase
-isLowerCase(str) | checks whether all letters are lowercase
+isUpperCase(str) | checks if all letters are uppercase
+isLowerCase(str) | checks if all letters are lowercase
 
 
 ## License
